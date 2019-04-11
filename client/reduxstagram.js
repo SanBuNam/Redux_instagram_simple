@@ -1,16 +1,16 @@
-import React from 'react';
-import { render } from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
 
 // Import css
-import css from './styles/style.styl';
+import css from "./styles/style.styl";
 
 // Import components
-import Main from './components/Main';
-import Single from './components/Single';
-import PhotoGrid from './components/PhotoGrid';
+import Main from "./components/Main";
+import Single from "./components/Single";
+import PhotoGrid from "./components/PhotoGrid";
 
 // Import react router depnds
-import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+import { Router, Route, IndexRoute, browserHistory } from "react-router";
 
 const router = (
   <Router history={browserHistory}>
@@ -21,4 +21,4 @@ const router = (
   </Router>
 );
 
-render(router, document.getElementById('root'));
+render(router, document.getElementById("root"));
